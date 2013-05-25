@@ -1,0 +1,19 @@
+[Sound Theme]
+Name=Default
+Name[zh_CN]=默认
+Name[zh_TW]=預設值
+Name[zh_HK]=預設值
+Name[en_US]=Default
+Name[fi]=Oletus
+Name[fr]=Par défaut
+Name[de]=Vorgabe
+Name[it]=Predefinito
+Name[ja]=デフォルト
+Name[ko]=기본값
+Name[pl]=Domyślne
+Name[es]=Predeterminado
+Name[sv]=Standard
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
