@@ -2,7 +2,6 @@ Name: sound-theme-freedesktop
 Version: 0.8
 Release: 2
 Summary: Sound theme from freedesktop.org
-Group: User Interface/Desktops
 Source0: http://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-%{version}.tar.bz2
 Source1: index.theme
 # For details on the licenses used, see README
@@ -42,6 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
+%license CREDITS
 %doc README
 %dir %{_datadir}/sounds/freedesktop
 %dir %{_datadir}/sounds/freedesktop/stereo
