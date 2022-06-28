@@ -2,11 +2,11 @@ Name: sound-theme-freedesktop
 Version: 0.8
 Release: 2
 Summary: Sound theme from freedesktop.org
-Source0: http://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-%{version}.tar.bz2
+Source0: %{name}-%{version}.tar.bz2
 Source1: index.theme
 # For details on the licenses used, see README
 License: GPLv2+ and LGPLv2+ and CC-BY-SA and CC-BY
-Url: http://www.freedesktop.org/wiki/Specifications/sound-theme-spec
+Url: https://github.com/sailfishos/sound-theme-freedesktop
 BuildArch: noarch
 BuildRequires: gettext
 BuildRequires: intltool >= 0.40
